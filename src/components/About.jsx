@@ -15,7 +15,9 @@ function About() {
 					href="mailto:webcifar.com"
 					className="block mt-3 text-md md:text-lg text-gray-700 dark:text-gray-300 underline decoration-1 hover:text-indigo-500 dark:hover:text-indigo-500"
 				>
-					chamarnumber102@gmail.com
+					<a href='mailto:chamarnumber102@gmail.com'>Gmail</a>
+
+					
 				</a>
 			</div>
 
