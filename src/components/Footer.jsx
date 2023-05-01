@@ -12,7 +12,7 @@ function Footer() {
 			>
 				
 			</a>
-			<p className="text-xs mt-2 text-gray-500">
+			<p className="text-xs py-4 mt-8 text-gray-500">
 				© By Maushish Yadav {new Date().getFullYear()}. All rights reserved
 			</p>
 		</div>
