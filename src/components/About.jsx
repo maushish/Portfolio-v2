@@ -15,7 +15,7 @@ function About() {
 					if you loved my project and wanna contact me here are my social just dm me!
 				</p>
 				<a href='mailto:chamarnumber102@gmail.com' className="block mt-3 text-md md:text-lg underline decoration-1">
-    				<FontAwesomeIcon icon={faEnvelope} className="mr-2 text-gray-700 dark:text-gray-300 hover:text-indigo-500 dark:hover:text-indigo-500" />
+    				<FontAwesomeIcon icon={faEnvelope} className="mr-2 px-3  text-gray-700 dark:text-gray-300 hover:text-indigo-500 dark:hover:text-indigo-500"style={{ fontSize: '24px' }}  />
 				</a>
 
 			</div>
