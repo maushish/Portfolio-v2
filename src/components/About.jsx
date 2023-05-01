@@ -11,24 +11,25 @@ function About() {
 			<div className="w-full md:w-6/12">
 				<SectionTitle>About Me</SectionTitle>
 				<p className="text-md text-gray-600 dark:text-gray-300">
-					I am a 19 year old Web3 Developer who is learning various new technologies. If you loved my project and want to contact me, here are my social links:
+					I am a 19 year old Web3 Developer who is learning various new technologies
+					if you loved my project and wanna contact me here are my social just dm me!
 				</p>
-				<div className="flex flex-row mt-3 space-x-4">
-					<a href='mailto:chamarnumber102@gmail.com' className="text-gray-700 dark:text-gray-300 hover:text-indigo-500 dark:hover:text-indigo-500" style={{ fontSize: '24px' }}>
-    					<FontAwesomeIcon icon={faEnvelope} className="text-lg" />
+				<div className="flex flex-row mt-3">
+					<a href='mailto:chamarnumber102@gmail.com' className="mr-3">
+						<FontAwesomeIcon icon={faEnvelope} className="text-gray-700 dark:text-gray-300 hover:text-indigo-500 dark:hover:text-indigo-500" style={{ fontSize: '24px' }} />
 					</a>
-					<a href="https://twitter.com/MaushishYadav" target="_blank" rel="noopener noreferrer" className="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-500"style={{ fontSize: '24px' }}>
-          				<FontAwesomeIcon icon={faTwitter} className="text-lg" />
-        			</a>
-        			<a href="https://github.com/maushish" target="_blank" rel="noopener noreferrer" className="text-gray-700 dark:text-gray-300 hover:text-gray-600 dark:hover:text-gray-400"style={{ fontSize: '24px' }}>
-          				<FontAwesomeIcon icon={faGithub} className="text-lg" />
-        			</a>
-        			<a href="https://www.linkedin.com/in/maushish-yadav-5b5578215/" target="_blank" rel="noopener noreferrer" className="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-500"style={{ fontSize: '24px' }}>
-          				<FontAwesomeIcon icon={faLinkedin} className="text-lg" />
-        			</a>
-        			<a href="https://maishish.hashnode.dev/" target="_blank" rel="noopener noreferrer" className="text-gray-700 dark:text-gray-300 hover:text-purple-500 dark:hover:text-purple-500"style={{ fontSize: '24px' }}>
-          				<FontAwesomeIcon icon={faHashnode} className="text-lg" />
-        			</a>
+					<a href="https://twitter.com/MaushishYadav" target="_blank" rel="noopener noreferrer" className="mr-3">
+						<FontAwesomeIcon icon={faTwitter} className="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-500" style={{ fontSize: '24px' }} />
+					</a>
+					<a href="https://github.com/MaushishYadav" target="_blank" rel="noopener noreferrer" className="mr-3">
+						<FontAwesomeIcon icon={faGithub} className="text-gray-700 dark:text-gray-300 hover:text-gray-600 dark:hover:text-gray-200" style={{ fontSize: '24px' }} />
+					</a>
+					<a href="https://www.linkedin.com/in/maushish-yadav-52a852205/" target="_blank" rel="noopener noreferrer" className="mr-3">
+						<FontAwesomeIcon icon={faLinkedin} className="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-500" style={{ fontSize: '24px' }} />
+					</a>
+					<a href="https://maushish.hashnode.dev/" target="_blank" rel="noopener noreferrer">
+						<FontAwesomeIcon icon={faHashnode} className="text-gray-700 dark:text-gray-300 hover:text-purple-500 dark:hover:text-purple-500" style={{ fontSize: '24px' }} />
+					</a>
 				</div>
 			</div>
 
