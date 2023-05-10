@@ -11,11 +11,21 @@ function WorkItem({ imgUrl, title, tech, workUrl, githubUrl }) {
     setIsHovered(false);
   };
 
+  const handleTouchStart = () => {
+    setIsHovered(true);
+  };
+
+  const handleTouchEnd = () => {
+    setIsHovered(false);
+  };
+
   return (
     <div
       className="relative"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
+      onTouchStart={handleTouchStart}
+      onTouchEnd={handleTouchEnd}
     >
       <a
         href={workUrl}
@@ -53,7 +63,7 @@ function WorkItem({ imgUrl, title, tech, workUrl, githubUrl }) {
               rel="noreferrer"
               className="inline-block px-8 py-3 border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:text-md"
             >
-              Code
+              GitHub
             </a>
             <a
               href={workUrl}
