@@ -1,5 +1,5 @@
 import React from 'react';
-import Pdf from '../images/Maushish Yadav.pdf';
+import Pdf from '/images/Maushish Yadav.pdf';
 
 export default function HeroSection() {
   return (

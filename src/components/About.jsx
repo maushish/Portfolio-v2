@@ -1,5 +1,5 @@
 import React from 'react';
-import myImg from '../images/hero.jpg';
+import myImg from '/images/hero.jpg';
 import SectionTitle from './SectionTitle';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faTwitter, faGithub, faLinkedin, faHashnode } from '@fortawesome/free-brands-svg-icons';

@@ -2,7 +2,7 @@ export default [
 	{
 		title: 'Crypto Transaction dApp',
 		imgUrl:
-			'Public/images/Khooshare.png',
+			'/images/Khooshare.png',
 		tech: ['React JS', 'Ether.JS', 'Solidity','Hardhat'],
 		githubUrl: 'https://github.com/maushish/Khooshare',
 		workUrl:'https://khooshare-a53d6e.spheron.app/',
@@ -10,7 +10,7 @@ export default [
 	{
 		title: "To-Do-List",
 		imgUrl:
-			'public/images/Todolist.png',
+			'/images/Todolist.png',
 		tech: ['Javascript', 'HTML', 'CSS'],
 		githubUrl: 'https://github.com/maushish/To-Do-List',
 		workUrl:'https://to-do-list-maushish.vercel.app/',
@@ -19,7 +19,7 @@ export default [
 	{
 		title: "Pomodoro Timer",
 		imgUrl:
-			'public/images/Pomodoro.png',
+			'/images/Pomodoro.png',
 		tech: ['Javascript', 'HTML', 'CSS'],
 		githubUrl: 'https://github.com/maushish/Pomodoro',
 		workUrl:'https://pomodoro-red-rho.vercel.app/',
