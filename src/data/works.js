@@ -19,7 +19,7 @@ export default [
 	{
 		title: "Pomodoro Timer",
 		imgUrl:
-			'src/images/Pomodoro.png',
+			'/home/maushish/Portfolio/src/images/Pomodoro.png',
 		tech: ['Javascript', 'HTML', 'CSS'],
 		githubUrl: 'https://github.com/maushish/Pomodoro',
 		workUrl:'https://pomodoro-red-rho.vercel.app/',
