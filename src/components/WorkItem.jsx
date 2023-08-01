@@ -55,7 +55,7 @@ function WorkItem({ imgUrl, title, tech, workUrl, githubUrl }) {
         </div>
       </a>
       {isHovered && (
-        <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 transition-opacity duration-300">
+        <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 transition-opacity duration-300 ">
           <div className="flex items-center gap-4">
             <a
               href={githubUrl}
