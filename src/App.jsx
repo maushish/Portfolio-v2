@@ -40,8 +40,8 @@ function App() {
 			<div className="bg-white dark:bg-slate-900 min-h-screen font-inter ">
 				<div className="max-w-5xl w-11/12 mx-auto">
 					<HeroSection />
-					<Services />
 					<Works />
+					<Services />
 					<About />
 					<Footer />
 				</div>
