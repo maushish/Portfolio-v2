@@ -24,7 +24,7 @@ function About() {
 					<a href="https://github.com/MaushishYadav" target="_blank" rel="noopener noreferrer" className="mr-3">
 						<FontAwesomeIcon icon={faGithub} className="text-gray-700 dark:text-gray-300 hover:text-gray-600 dark:hover:text-gray-200" style={{ fontSize: '24px' }} />
 					</a>
-					<a href="https://www.linkedin.com/in/maushish-yadav-52a852205/" target="_blank" rel="noopener noreferrer" className="mr-3">
+					<a href="https://www.linkedin.com/in/maushishyadav/" target="_blank" rel="noopener noreferrer" className="mr-3">
 						<FontAwesomeIcon icon={faLinkedin} className="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-500" style={{ fontSize: '24px' }} />
 					</a>
 					<a href="https://maushish.hashnode.dev/" target="_blank" rel="noopener noreferrer">
