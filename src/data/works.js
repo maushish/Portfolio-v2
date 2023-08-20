@@ -1,9 +1,9 @@
 export default [
 	{title: 'Fest3',
 	imgUrl:
-		'/home/maushish/Portfolio/public/images/Fest3.png',
+		'/images/Fest3.png',
 	tech: ['React JS',"EtherJS", 'Solidity','Hardhat',"Typescript"],
-	githubUrl: 'https://github.com/maushish',
+	githubUrl: 'https://github.com/happyNariman/fest3/tree/main',
 	workUrl:'https://happynariman.github.io/fest3/',
 
 },
