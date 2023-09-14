@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function WorkItem({ imgUrl, title, tech, workUrl, githubUrl }) {
+function WorkItem({ imgUrl, title, tech, workUrl, githubUrl, details }) {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
@@ -21,9 +21,9 @@ function WorkItem({ imgUrl, title, tech, workUrl, githubUrl }) {
 
   return (
     <div className="flex flex-col mb-4">
-      <div className="w-full">
+      <div className="w-80 h-40">
         <a href={workUrl} target="_blank" rel="noreferrer">
-          <div className="border-white border-x-2 border-y-2 rounded-lg">
+          <div className="border-white border-x-2 border-y-2 rounded-lg w-100">
             <img
               src={imgUrl}
               alt="work"
@@ -32,26 +32,16 @@ function WorkItem({ imgUrl, title, tech, workUrl, githubUrl }) {
           </div>
         </a>
       </div>
-      <div className="mt-4 p-3 rounded-md flex flex-col items-center justify-center bg-slate-800 text-gray-600 dark:text-gray-300">
+      <div className="mt-4 p-3 w-80  rounded-md flex flex-col items-center justify-center bg-slate-800 text-gray-600 dark:text-gray-300">
         <h3 className="text-lg md:text-xl mb-2 md:mb-3 font-semibold">
           {title}
         </h3>
-        <p className="flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm">
-          {tech.map((item) => (
-            <span
-              key={item}
-              className="inline-block px-2 py-1 bg-slate-200 dark:bg-slate-900 rounded-md"
-            >
-              {item}
-            </span>
-          ))}
-        </p>
-        <div className="flex items-center gap-4 mt-4">
+        <div className="flex items-center gap-4 mb-2">
           <a
             href={githubUrl}
             target="_blank"
             rel="noreferrer"
-            className="inline-block px-8 py-3 border-transparent text-base font-medium rounded-md text-white bg-indigo-600 md:text-md"
+            className="px-4 py-2 border-transparent text-base font-medium rounded-md text-white bg-indigo-600 md:text-md hover:bg-indigo-700"
           >
             GitHub
           </a>
@@ -59,11 +49,16 @@ function WorkItem({ imgUrl, title, tech, workUrl, githubUrl }) {
             href={workUrl}
             target="_blank"
             rel="noreferrer"
-            className="inline-block px-8 py-3 border-transparent text-base font-medium rounded-md text-white bg-indigo-600 md:text-md"
+            className="px-4 py-2 border-transparent text-base font-medium rounded-md text-white bg-indigo-600 md:text-md hover:bg-indigo-700"
           >
             Visit
           </a>
         </div>
+        {isHovered && (
+          <div className="mt-4 text-gray-700 dark:text-gray-300">
+            {details}
+          </div>
+        )}
       </div>
     </div>
   );
