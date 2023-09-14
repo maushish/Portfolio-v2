@@ -20,8 +20,8 @@ function WorkItem({ imgUrl, title, tech, workUrl, githubUrl }) {
   };
 
   return (
-    <div className="flex mb-4">
-      <div className="w-full md:w-2/3">
+    <div className="flex flex-col mb-4">
+      <div className="w-full">
         <a href={workUrl} target="_blank" rel="noreferrer">
           <div className="border-white border-x-2 border-y-2 rounded-lg">
             <img
@@ -32,9 +32,7 @@ function WorkItem({ imgUrl, title, tech, workUrl, githubUrl }) {
           </div>
         </a>
       </div>
-      <div className='flex flex-col items-center justify-center'>
-      <div className="w-full md:w-1/3 bg-slate-800 p-5 text-gray-600 dark:text-gray-300">
-        {/* Your project info content goes here */}
+      <div className="mt-4 p-3 rounded-md flex flex-col items-center justify-center bg-slate-800 text-gray-600 dark:text-gray-300">
         <h3 className="text-lg md:text-xl mb-2 md:mb-3 font-semibold">
           {title}
         </h3>
@@ -53,7 +51,7 @@ function WorkItem({ imgUrl, title, tech, workUrl, githubUrl }) {
             href={githubUrl}
             target="_blank"
             rel="noreferrer"
-            className="inline-block px-8 py-3 border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:text-md"
+            className="inline-block px-8 py-3 border-transparent text-base font-medium rounded-md text-white bg-indigo-600 md:text-md"
           >
             GitHub
           </a>
@@ -61,12 +59,11 @@ function WorkItem({ imgUrl, title, tech, workUrl, githubUrl }) {
             href={workUrl}
             target="_blank"
             rel="noreferrer"
-            className="inline-block px-8 py-3 border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:text-md"
+            className="inline-block px-8 py-3 border-transparent text-base font-medium rounded-md text-white bg-indigo-600 md:text-md"
           >
             Visit
           </a>
         </div>
-      </div>
       </div>
     </div>
   );
